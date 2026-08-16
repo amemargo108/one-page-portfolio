@@ -46,21 +46,7 @@
                             <h1 class="mb-3 section-head text-center">Student Work</h1>
                             <h2 class="subheading text-center">Here are some prior projects:</h2>
                         </div>
-                        <!-- First Projet -->
-                            <h4 class="subheading mt-5">CoffeeRun Full-stack Web Application:</h4>
-                            <div class="ratio ratio-16x9">
-                                <div id="playerCap"></div>
-                            </div>
-                            <p></p>
-                          <p>A full-stack web application for managing coffee run orders across a workplace. 
-                            Employees can browse participating coffee shops, save their preferred orders, and 
-                            view run lists organized by department. Admins have full CRUD control over employees, 
-                            coffee shops, and menu options, plus reporting tools for coordinating orders.</p>
-                            <p>Built with a Spring Boot backend (Spring Security + JWT authentication), 
-                            PostgreSQL database, and Angular frontend — deployed on Render and Vercel.</p>
-                            
-
-                        <!-- Second Project-->
+                        <!-- First Project-->
                             <h4 class="subheading mt-5">Interactive World Map:</h4>
                             <div class="ratio ratio-16x9">
                                 <div id="player"></div>
@@ -70,22 +56,20 @@
                             
 
 
-                            <!-- Third Project -->
+                            <!-- Second Project -->
                             <h4 class="subheading mt-5">Full-stack Programming Hotel Project:</h4>
                             <div>
                                 <img src="images/blanket-fort.gif" class="img-fluid" alt="Screenshot of an order form showing a prior project">                            
                             </div>
-                            <p></p>
 <p>A customized inventory management system for a camera store, built with Spring Boot and a Java back end. I extended a base application to include store-specific branding, sample inventory, a one-click purchase button, and min/max inventory validation with user-facing error messaging throughout.</p>
                             <p class="fst-italic">This project was built for coursework — the repository is private but available upon request.</p>
 
 
-                            <!-- Fourth Project -->
+                            <!-- Third Project -->
                             <h4 class="subheading mt-5">Full-stack Programming Hotel Project:</h4>
                             <div>
                                 <img src="images/landon-hotel.gif" class="img-fluid" alt="Screenshot the landing page to a hotel booking page showing a prior project">                            
                             </div>
-                            <p></p>
                             <p>A full-stack hotel scheduling app modified to meet international business requirements. I extended the Java back end with multithreaded localization across English and French, time zone conversion across ET/MT/UTC, and multi-currency pricing on the Angular front end. The finished application was containerized using Docker.</p>
                             <p class="fst-italic">This project was built for coursework — the repository is private but available upon request.</p>
                             
@@ -143,19 +127,10 @@
 
 <script>
   var player;
-  var playerCap;
 
   function onYouTubeIframeAPIReady() {
     player = new YT.Player('player', {
       videoId: 'xjrxs-s1oDw',
-      playerVars: {
-        rel: 0,
-        modestbranding: 1
-      }
-    });
-
-    playerCap = new YT.Player('playerCap', {
-      videoId: 'EUDrxV364vU',
       playerVars: {
         rel: 0,
         modestbranding: 1
